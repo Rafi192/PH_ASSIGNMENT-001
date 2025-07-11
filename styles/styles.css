@@ -71,7 +71,7 @@
 
 .header{
     /* background-color: #4E47FF; */
-    background-image: url(/Assets/Hero-bg.png);
+    background-image: url(../Assets/Hero-bg.png);
     max-width: 1440px;
     max-height: 698px;
 }
