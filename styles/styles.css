@@ -21,7 +21,31 @@
     color: white;
     padding: 12px 36px;
     border-style: none;
+    font-size: 16px;
+    font-weight: bold;
 
+}
+.header-body-btn{
+    border-radius: 10px;
+    background-color: #4E47FF;
+    color: white;
+    padding: 12px 36px;
+    border-style: none;
+     font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 150px;
+
+}
+
+.header-body-para{
+    font-size: 65px;
+    font-weight: bold;
+}
+.header-body{
+    /* text-align: center; */
+    text-align: center;
+    width: auto;
+    margin-top: 150px 267px 0 0;
 }
     
 .raleway-font{
