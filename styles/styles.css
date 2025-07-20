@@ -356,3 +356,117 @@ footer p{
     color: #8987A1;
     margin-bottom: 20px;
 }
+
+/* Responsive design section */
+
+@media screen and (max-width:576px) {
+    .navbar,
+    .action, 
+    .action-section,
+    .users-data,
+    .footer-links
+    {
+        flex-direction: column;
+        
+    }
+    .action, .users-data{
+        gap: 0;
+    }
+
+    .logo,
+     .nav-btn, 
+     .header-body,  
+     .header-body-btn, 
+     .productive-user-section,
+     .users-feedback{
+        margin: 0;
+    }
+    .header-body-para, .action-section, .title-productive{
+        margin:10px;
+        font-size: 30px;
+        font-weight: 300;
+    }
+    .productive-title, .datas{
+        padding: 0;
+        margin: 5px;
+    }
+    .action-title{
+        margin: 5px;
+    }
+    .right-side-action img{
+        width: 100%;
+    }
+
+    .left-side-action{
+        text-align: center;
+
+    }
+
+    .header{
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+
+    /* main sections */
+
+    .feedback-container{
+        flex-wrap: wrap;
+    }
+    .datas {
+        font-size: 50px;
+    }
+
+    /* ready focus section */
+    .ready-focus-section{
+        margin: 0;
+        padding: 15px;
+    }
+
+    /* Get in touch section */
+
+    .get-in-touch{
+        margin: 0;
+        gap: 10px;
+        flex-direction: column;
+    }
+    .left-side .section-title{
+        font-size: 50px;
+        text-align: center;
+    }
+    .right-side{
+        width: 100%;
+        /* padding: 0;         */
+    }
+
+
+    form input[type="text"], input[type="email"]{
+        width: calc(100% - 30vw);
+    }
+    form input[type="textarea"]{
+        width: calc(100% - 30vw);
+    }
+    .submit-btn{
+        width: calc(100% - 15vw)
+        
+    }
+
+    /* Footer section  */
+
+    .footer{
+        width: 100%;
+        height: auto;
+    }
+
+    .footer-wrapper{
+        margin: 0;
+    }
+    .footer-LOGO{
+        margin: 10px;
+        font-size: 30px;
+    }
+    
+
+
+
+}
